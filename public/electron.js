@@ -1,9 +1,6 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow , shell} = require('electron')
 const path = require('path')
-const fs = require('fs-extra')
-const {realpathSync} = require('fs')
-const createSymlink = require('create-symlink')
 const windowStateKeeper = require('electron-window-state')
 const isDev = require('electron-is-dev')
 
