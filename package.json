@@ -1,17 +1,17 @@
 {
-  "name": "emucipher",
+  "name": "simucipher",
   "version": "0.1.0",
   "homepage": "./",
   "private": true,
   "main": "public/electron.js",
-  "description": "Emulator of Classical and Modern Cypher algorithms",
+  "description": "Simulator of Classical and Modern Cypher algorithms",
   "author": {
     "name": "Gerardo Hernández",
     "email": "edgewl2@gmail.com"
   },
   "copyright": "Copyright © Gerardo Hernández",
   "license": "MIT",
-  "productName": "Emucipher",
+  "productName": "Simucipher",
   "dependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.0",
@@ -68,16 +68,16 @@
     "release": "npm run g-build && npm run build && electron-builder --publish onTag"
   },
   "build": {
-    "appId": "com.edgewl2.emucipher",
+    "appId": "com.edgewl2.simucipher",
     "directories": {
       "output": "release",
       "buildResources": "assets"
     },
     "mac": {
-      "category": "com.edgewl2.emucipher.category.Utility"
+      "category": "com.edgewl2.simucipher.category.Utility"
     },
     "linux": {
-      "category": "com.edgewl2.emucipher.category.Utility",
+      "category": "com.edgewl2.simucipher.category.Utility",
       "target": [
         "AppImage",
         "snap",
@@ -85,7 +85,7 @@
         "tar.gz"
       ],
       "maintainer": "Gerardo Hernández",
-      "executableName": "emucipher",
+      "executableName": "simucipher",
       "synopsis": "Simulator",
       "description": "Simulator of Classical and Modern Cypher algorithms"
     }
