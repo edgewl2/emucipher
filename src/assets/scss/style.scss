@@ -1,2 +1,13 @@
-//Boostrap Style
+//Overrides
+@import "overrides";
+//Bootstrap Style
 @import '../../../node_modules/bootstrap/scss/bootstrap';
+//Material Style
+@import "../../../node_modules/@material/linear-progress/mdc-linear-progress";
+//Fonts Style
+@import "../fonts/Steinerlight/fonts.css";
+//Patterns Style
+@import "patterns/_atoms/animate";
+@import "patterns/_atoms/general";
+@import "patterns/_atoms/vector";
+@import "patterns/_atoms/loader";

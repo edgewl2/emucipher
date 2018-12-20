@@ -1,0 +1,41 @@
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-moveUp {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-30%);
+  }
+}
+
+@keyframes loader-unfoldIn {
+  0% {
+    transform: scaleY(.005) scaleX(0);
+    opacity: .1;
+  }
+  50% {
+    transform: scaleY(.005) scaleX(1);
+    opacity: .5;
+  }
+  100% {
+    transform: scaleY(1) scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes loader-fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

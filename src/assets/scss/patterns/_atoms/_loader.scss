@@ -1,0 +1,105 @@
+.loader{
+  position: relative;
+  display: inline-block;
+  animation: loader-moveUp alternate 2s forwards;
+  animation-delay: 5s;
+  margin-bottom: 5px;
+
+  @media (min-width: 0px) and (max-width: 575px) {
+    height: 16vh;
+    width: 16vh;
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    height: 17.5vh;
+    width: 17.5vh;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    height: 19vh;
+    width: 19vh;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    height: 20.5vh;
+    width: 20.5vh;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1475px) {
+    height: 22vh;
+    width: 22vh;
+  }
+
+  @media (min-width: 1476px) and (max-width: 1920px) {
+    height: 23.5vh;
+    width: 23.5vh;
+  }
+
+}
+
+.loader-secondary{
+  position: absolute;
+  z-index: 9999;
+  animation: loader-spin running 5s linear;
+
+  @media (min-width: 0px) and (max-width: 575px) {
+    left: 0%;
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    left: 0%;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    left: 0%;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    left: 0%;
+  }
+
+  @media (min-width: 1200px) {
+    left: 0%;
+  }
+
+}
+
+.loader-name{
+  font-family: Steinerlight;
+  color: #ccc;
+  animation: loader-fadeIn alternate 2s forwards;
+  animation-delay: 5800ms;
+  opacity: 0;
+  margin-top: -5%;
+
+  @media (min-width: 0px) and (max-width: 575px) {
+    font-size: 40pt;
+    margin-bottom: -34px;
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    font-size: 45pt;
+    margin-bottom: -36px;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 50pt;
+    margin-bottom: -34px;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    font-size: 55pt;
+    margin-bottom: -32px;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1475px) {
+    font-size: 60pt;
+    margin-bottom: -30px;
+  }
+
+  @media (min-width: 1476px) and (max-width: 1920px) {
+    font-size: 65pt;
+    margin-bottom: -28px;
+  }
+
+}

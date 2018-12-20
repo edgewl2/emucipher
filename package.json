@@ -38,11 +38,13 @@
     "mobx-react": "^5.4.2",
     "mobx-react-router": "^4.0.5",
     "popper.js": "^1.14.6",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-detect-offline": "^2.1.2",
     "react-dom": "^16.6.3",
     "react-motion": "^0.5.2",
     "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
     "react-spring": "^7.0.0",
     "typeface-ubuntu": "0.0.65"
@@ -85,7 +87,7 @@
       "maintainer": "Gerardo Hernández",
       "executableName": "emucipher",
       "synopsis": "Simulator",
-      "description": "Emulator of Classical and Modern Cypher algorithms"
+      "description": "Simulator of Classical and Modern Cypher algorithms"
     }
   },
   "eslintConfig": {
