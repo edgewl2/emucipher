@@ -3,7 +3,7 @@
   display: inline-block;
   animation: loader-moveUp alternate 2s forwards;
   animation-delay: 5s;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 
   @media (min-width: 0px) and (max-width: 575px) {
     height: 16vh;
@@ -65,7 +65,7 @@
 }
 
 .loader-name{
-  font-family: Steinerlight;
+  font-family: Steinerlight, 'Roboto', sans-serif;
   color: #ccc;
   animation: loader-fadeIn alternate 2s forwards;
   animation-delay: 5800ms;

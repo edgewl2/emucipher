@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 //New Properties
 const propTypes = {
-    number: PropTypes.number,
+    numbers: PropTypes.number,
     position: PropTypes.string.isRequired,
 };
 
@@ -13,15 +13,15 @@ class Vector extends Component {
 
         let {
             position,
-            number,
-            ...attributes
+            numbers,
+            ...attr
         } = this.props;
 
         //Class CSS curve
-        const classes = number != null ? 'vector-' + position + number : 'vector-' + position;
+        const classes = numbers != null ? 'vector-' + position + numbers : 'vector-' + position;
 
         return (
-            <div {...attributes} className={classes}/>
+            <div {...attr} className={classes}/>
         );
     }
 }

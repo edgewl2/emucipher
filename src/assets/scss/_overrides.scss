@@ -1,8 +1,13 @@
 $grays: () !default;
 
-$colors: () !default;
+$colors: (
+  'app': #00596f,
+) !default;
 
-$theme-colors: () !default;
+$theme-colors: (
+  'app': #00596f,
+  'app-secondary': #003044,
+) !default;
 
 $spacers: () !default;
 

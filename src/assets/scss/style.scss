@@ -6,8 +6,16 @@
 @import "../../../node_modules/@material/linear-progress/mdc-linear-progress";
 //Fonts Style
 @import "../fonts/Steinerlight/fonts.css";
+@import "../fonts/fonts-awesome-pro/css/fontsawesome.css";
+@import "../../../node_modules/typeface-ubuntu/index.css";
 //Patterns Style
 @import "patterns/_atoms/animate";
 @import "patterns/_atoms/general";
 @import "patterns/_atoms/vector";
 @import "patterns/_atoms/loader";
+@import "patterns/_molecules/navbar";
+@import "patterns/_molecules/sidebar";
+@import "patterns/_molecules/toolbar";
+@import "patterns/_organisms/header";
+@import "patterns/_pages/home";
+@import "patterns/_pages/load";

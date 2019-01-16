@@ -1,10 +1,36 @@
 body{
   background-color: #00596f;
+  overflow: hidden;
+  outline: 0;
 }
 
-.app{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.hide {
+  display: none !important;
+}
+
+.app-in{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   height: 100vh;
+  z-index: 1030;
+  outline: 0;
+  overflow: hidden;
+  animation: app-fadeIn running 1.5s linear;
+}
+
+.app-in-open {
+  overflow: hidden;
+
+  .app-in {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+header{
+  background-color: #00596f;
+  //#003044;
 }

@@ -39,3 +39,88 @@
     opacity: 1;
   }
 }
+
+@keyframes app-fadeIn {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes stoggleropen-moveOut {
+  0% {
+    transform: translateX(0px) translateY(0px) rotate(45deg);
+  }
+  100% {
+    transform: translateX(-100px) translateY(-100px) rotate(45deg);
+  }
+}
+
+@keyframes stoggleropen-moveIn {
+  0% {
+    transform: translateX(-100px) translateY(-100px) rotate(45deg);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px) rotate(45deg);
+  }
+}
+
+@keyframes  stogglerclose-moveOneIn {
+  0% {
+    transform: translateX(100px) translateY(-100px) rotate(-45deg);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px) rotate(-45deg);
+  }
+}
+
+@keyframes  stogglerclose-moveTwoIn {
+  0% {
+    transform: translateX(-100px) translateY(-100px) rotate(45deg);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px) rotate(45deg);
+  }
+}
+
+@keyframes  stogglerclose-moveOneOut {
+  0% {
+    transform: translateX(0px) translateY(0px) rotate(-45deg);
+  }
+  100% {
+    transform: translateX(100px) translateY(-100px) rotate(-45deg);
+  }
+}
+
+@keyframes  stogglerclose-moveTwoOut {
+  0% {
+    transform: translateX(0px) translateY(0px) rotate(45deg);
+  }
+  100% {
+    transform: translateX(-100px) translateY(-100px) rotate(45deg);
+  }
+}
+
+@keyframes sdb-ddToggler-MoveUp {
+  0%{
+    transform: rotate(44deg);
+    top: 21px;
+  }
+  100%{
+    top: 25px;
+    transform: rotate(-135deg);
+  }
+}
+
+@keyframes sdb-ddToggler-MoveDown {
+  0%{
+    top: 25px;
+    transform: rotate(-135deg);
+  }
+  100%{
+    top: 21px;
+    transform: rotate(44deg);
+  }
+}

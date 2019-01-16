@@ -23,7 +23,7 @@ function createWindow () {
         minheight: 700,
         x: mainWindowState.x,
         y: mainWindowState.y,
-        backgroundColor: '#282c34',
+        backgroundColor: '#00596f',
     })
 
     mainWindowState.manage(mainWindow);

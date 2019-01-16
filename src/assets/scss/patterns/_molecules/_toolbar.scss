@@ -1,0 +1,30 @@
+.app-toolbar{
+  position: absolute;
+  height: calc(100vh - 68px);
+}
+
+.toolbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 72px;
+  height: 100%;
+  background-color: #003044;
+
+  .toolbar-tools {
+    padding: 29% 0px;
+    align-items: center;
+    justify-content: center;
+
+    .toolbar-tools-item {
+      margin: 29% 0%;
+
+      i {
+        width: 42px;
+        height: 42px;
+        font-size: 2em;
+      }
+    }
+  }
+}
